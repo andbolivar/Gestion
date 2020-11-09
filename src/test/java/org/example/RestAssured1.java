@@ -13,7 +13,6 @@ public class RestAssured1 {
         getResponseLogin();
         getResponseTime();
     }
-
     public static void getResponseNoLogin() {
         System.out.println("Prueba sin Usuario/contraseña");
         given().queryParam("Account_No", "1")
